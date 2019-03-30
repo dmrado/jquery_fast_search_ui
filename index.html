@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>JQuery быстрый поиск + JQuery UI - slider</title>
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+	<div id="wrapper" class="container">
+		<div class="row">
+			
+			<div class="col-xs-12">
+				<h1>JQuery быстрый поиск + JQuery UI - slider</h1>
+				<hr>
+			</div>
+			
+			<div class="col-xs-12 col-sm-6">
+				<div class="form-inline">
+					<div class="input-group">
+						<input type="text" class="form-control" id="search-input" placeholder="Поиск...">
+						<div class="input-group-addon"><i class="fa fa-search"></i></div>
+					</div>
+				</div>
+			</div>
+			<div id="slider-block" class="col-xs-12 col-sm-6">
+				<p class="text-center">
+					<label for="amount">Население:</label>
+					<input type="text" id="amount" readonly>
+				</p>
+				<div id="slider-range"></div>
+			</div>
+			
+			<div id="result" class="col-xs-12 text-center">
+				<br>
+				<h3>Найдено: <span>0</span></h3>
+			</div>
+		</div>	<!-- end row -->
+		
+		
+		<hr>
+		
+		<div class="row">
+			<div class="col-md-4 animated fadeIn">
+				<div class="block">
+					<h3 class="text-center">Москва</h3>
+					<hr>
+					<p class="country">Страна: <span>Россия</span></p>
+					<p class="population">Числ. населения: <span>12615882</span> чел</p>
+					<p class="square">Площадь: <span>2561</span> км2</p>
+					<p class="phones">Тел. код: <span>+7 499, +7 495</span></p>
+					<hr>
+					<p class="description">Столица России, город федерального значения, административный центр Центрального федерального округа и центр Московской области, в состав которой не входит. Крупнейший по численности населения город России, входит в десятку городов мира по численности населения</p>
+				</div>
+			</div>
+			<div class="col-md-4 animated fadeIn">
+				<div class="block">
+					<h3 class="text-center">Санкт-Петербург</h3>
+					<hr>
+					<p class="country">Страна: <span>Россия</span></p>
+					<p class="population">Числ. населения: <span>5383968</span> чел</p>
+					<p class="square">Площадь: <span>1439</span> км2</p>
+					<p class="phones">Тел. код: <span>+7 812</span></p>
+					<hr>
+					<p class="description">Второй по численности населения город России. Город федерального значения. Административный центр Северо-Западного федерального округа и Ленинградской области. Основан 27 мая 1703 года Петром I. В 1712-1918 годах являлся столицей Российского государства</p>
+				</div>
+			</div>
+			<div class="col-md-4 animated fadeIn">
+				<div class="block">
+					<h3 class="text-center">Красноярск</h3>
+					<hr>
+					<p class="country">Страна: <span>Россия</span></p>
+					<p class="population">Числ. населения: <span>1090811</span> чел</p>
+					<p class="square">Площадь: <span>353</span> км2</p>
+					<p class="phones">Тел. код: <span>+7 391</span></p>
+					<hr>
+					<p class="description">Один из крупнейших городов России, культурный, экономический, промышленный и образовательный центр Центральной и Восточной Сибири. Административный центр Красноярского края и городского округа Красноярск. Неофициальная столица Сибири</p>
+				</div>
+			</div>
+		</div>
+	</div>	<!-- end wrapper -->
+	
+	<!-- JS -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
